@@ -1,0 +1,261 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+}
+#header-nav{
+	background:url("https://www.hill-abbott.co.uk/wp-content/uploads/2018/07/HA-Gradient-background-plain-logo.jpg"); ;
+	border-radius: 0;
+	border: 0;
+}
+#logo-image{
+	border-radius: 25px;
+}
+.navbar-brand h1{
+	margin-left: 40px;
+	color:#3333ff; 
+	font-family: 'Lobster', cursive;
+	font-size: 5vw;
+	font-weight: bold;
+	text-shadow: 2px 2px 0 black;
+	margin-bottom: 0;
+	line-height: .75;
+	
+}
+.navbar-brand{
+	vertical-align: middle;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+	color:#3333ff;
+}
+
+#nav-list{
+	margin-top:20px; 
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+	font-size: 2em;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.2em;
+}
+#collapsable-nav{
+	margin-right: 100px;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: 1px solid #61122f;
+	background: white;
+
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -35px;
+}
+#main{
+	margin-top: -14px;
+	height: 510px;
+}
+#left_block{
+	height: 510px;
+	float: left;
+	width: 20%;
+
+}
+#up{
+	border:black solid 2px;
+	height: 510px;
+	background: url("http://mirafra.com/wp-content/uploads/2016/10/Light-Grey-Background-Hd-5-1024x640.jpg");
+
+}
+
+#second_block{
+	height: 510px;
+	float: right;
+	width: 80%;
+	overflow: auto;
+}
+#set li{
+	display: inline-block;
+	padding-right: 50px;
+	margin-top: 20px;
+	width: 100%;
+}
+#set span{
+	font-family:'Arimo', sans-serif;
+	font-size: 1vw;
+	color:black;
+
+}
+#set a:hover,#set a:focus{
+	text-decoration:none;
+	color:red;
+}
+#set a span:hover,#set a span:focus{
+	color:red;
+}
+#second_block h1{
+	font-family: 'Anton', sans-serif; 
+}
+#itemtitle{
+	padding-left: 30px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Righteous', cursive;
+	font-size: 2em;
+}
+#item_info{
+	text-align: left;
+	font-family: 'Crimson Text', serif;
+	font-size: 2em;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+footer{
+	margin-top:;
+	height: 55px;
+	background:url("https://www.hill-abbott.co.uk/wp-content/uploads/2018/07/HA-Gradient-background-plain-logo.jpg"); 
+}
+#end{
+	margin-top: -10px;
+	float:right;
+	width: 200px;
+	height:55px;
+	background: red;
+	font-family: 'Anton', sans-serif;
+	padding-top: 8px;
+	font-size: 1.8em;
+}
+#end:hover,#end:focus{
+	background: yellow;
+	text-decoration: none;
+	color:red;
+}
+@media(min-width: 1200px){
+
+
+}
+@media(min-width: 992px) and (max-width: 1199px){
+#collapsable-nav{
+	margin-right: 40px;
+}
+
+#set span{
+	font-size: 1.2vw;
+}
+#set li{
+	margin-top: 10px;
+}
+#second_block{
+	height: 510px;
+}
+#left_block{
+	height: 510px;
+}
+#up{
+	height: 510px;
+}
+#end{
+	height: 54px;
+}
+}
+@media(min-width: 768px) and (max-width: 991px){
+#nav-list a{
+	font-size: 1.5em;
+}
+.navbar-brand h1{
+	margin-left: 20px;
+}
+#collapsable-nav{
+	margin-right: 10px;
+}
+#set li{
+	margin-top: 0.5px;
+}
+#set span{
+	font-size: 1.2vw;
+}
+#left_block{
+	height: 510px;
+}
+#up{
+	height: 510px;
+}
+#second_block{
+	height: 510px;
+}
+#item_info{
+	font-size: 1.5em;
+}
+#end{
+	height: 54px;
+}
+}
+@media(max-width: 767px){
+.navbar-brand h1{
+	font-size: 2em;
+	margin-top: 0;
+	margin-left: 0;
+}
+#nav-list a{
+	font-size: 0.9em;
+	vertical-align: center;
+}
+#nav-list a span{
+	margin-right: 5px;
+}
+#second_block{
+	width: 100%;
+}
+#itemtitle{
+	padding-left: 20px;
+	font-size: 1.5em;
+}
+#item_info{
+	font-size: 1.5em;
+}
+img{
+	width: 350px;
+}
+footer{
+	margin-top:94px;
+	height: 55px;
+
+}
+#main{
+	margin-top: -10px;
+}
+#second_block{
+	height: 562px;
+}
+#item_info{
+	font-size: 1.5em;
+}
+#end{
+	position: relative;
+	right:60px;
+	height: 53px; 
+}
+#main{
+	height: 510px;
+}
+}
+@media(max-width: 425px){
+	#header-nav{
+	margin-bottom: 0px;
+}
+
+}
+@media(max-width: 375px){
+	img{
+		width: 280px;
+		height: 250px;
+	}
+
+}
