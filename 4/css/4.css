@@ -212,6 +212,7 @@ footer{
 }
 #second_block{
 	width: 100%;
+	
 }
 #itemtitle{
 	padding-left: 20px;
@@ -232,7 +233,7 @@ footer{
 	margin-top: -10px;
 }
 #second_block{
-	height: 562px;
+	height:600px;
 }
 #item_info{
 	font-size: 1.5em;
@@ -243,7 +244,7 @@ footer{
 	height: 53px; 
 }
 #main{
-	height: 510px;
+	height:600px;
 }
 }
 @media(max-width: 425px){
