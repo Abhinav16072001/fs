@@ -231,9 +231,6 @@ footer{
 #main{
 	margin-top: -10px;
 }
-#second_block{
-	height: 562px;
-}
 #item_info{
 	font-size: 1.5em;
 }
@@ -242,14 +239,18 @@ footer{
 	right:60px;
 	height: 53px; 
 }
-#main{
-	height: 510px;
-}
-}
-@media(max-width: 425px){
-	#header-nav{
+#header-nav{
 	margin-bottom: 0px;
 }
+#main{
+	height: 600px;
+}
+#second_block{
+	height: 682px;
+}
+
+}
+@media(max-width: 425px){
 
 }
 @media(max-width: 375px){
